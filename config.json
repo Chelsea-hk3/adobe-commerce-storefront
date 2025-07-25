@@ -1,0 +1,41 @@
+{
+  "public": {
+    "default": {
+      "commerce-core-endpoint": "https://www.casio.com/graphql",
+      "commerce-endpoint": "https://www.casio.com/cs-graphql",
+      "headers": {
+        "all": {
+          "Store": "default"
+        },
+        "cs": {
+          "Magento-Customer-Group": "b6589fc6ab0dc82cf12099d1c2d40ab994e8410c",
+          "Magento-Store-Code": "main_website_store",
+          "Magento-Store-View-Code": "us_store_view",
+          "Magento-Website-Code": "us",
+          "x-api-key": "6de50753109441edb5b943a3fdf1f979",
+          "Magento-Environment-Id": "6ceeed91-f813-4cb1-a2f8-e4354458139d"
+        }
+      },
+      "analytics": {
+        "base-currency-code": "USD",
+        "environment": "Production",
+        "environment-id": "6ceeed91-f813-4cb1-a2f8-e4354458139d",
+        "store-code": "main_website_store",
+        "store-id": 102,
+        "store-name": "Casio America, Inc.",
+        "store-url": "https://www.casio.com",
+        "store-view-code": "us_store_view",
+        "store-view-id": 102,
+        "store-view-name": "Casio US Store View",
+        "website-code": "us",
+        "website-id": 102,
+        "website-name": "US Website"
+      },
+      "plugins": {
+        "picker": {
+           "rootCategory": "4"
+         }
+      }
+    }
+  }
+}
